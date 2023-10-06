@@ -1,0 +1,248 @@
+[INFO] [launch]: All log files can be found below /home/docker_user/.ros/log/2023-10-06-17-09-39-417033-irene-XPS-15-9520-235476
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [component_container-1]: process started with pid [235498]
+[INFO] [topic_state_monitor_node-2]: process started with pid [235500]
+[INFO] [topic_state_monitor_node-3]: process started with pid [235502]
+[INFO] [topic_state_monitor_node-4]: process started with pid [235504]
+[INFO] [topic_state_monitor_node-5]: process started with pid [235506]
+[INFO] [topic_state_monitor_node-6]: process started with pid [235508]
+[INFO] [topic_state_monitor_node-7]: process started with pid [235510]
+[INFO] [topic_state_monitor_node-8]: process started with pid [235512]
+[INFO] [topic_state_monitor_node-9]: process started with pid [235514]
+[INFO] [topic_state_monitor_node-10]: process started with pid [235516]
+[INFO] [topic_state_monitor_node-11]: process started with pid [235518]
+[INFO] [topic_state_monitor_node-12]: process started with pid [235520]
+[INFO] [component_container-13]: process started with pid [235522]
+[INFO] [component_container-14]: process started with pid [235524]
+[INFO] [component_container-15]: process started with pid [235526]
+[INFO] [robot_state_publisher-16]: process started with pid [235528]
+[INFO] [mission_planner-17]: process started with pid [235530]
+[INFO] [goal_pose_visualizer-18]: process started with pid [235532]
+[INFO] [scenario_selector-19]: process started with pid [235543]
+[INFO] [external_velocity_limit_selector-20]: process started with pid [235560]
+[INFO] [motion_velocity_smoother-21]: process started with pid [235563]
+[INFO] [component_container_mt-22]: process started with pid [235568]
+[INFO] [component_container-23]: process started with pid [235609]
+[INFO] [planning_validator_node-24]: process started with pid [235614]
+[INFO] [component_container-25]: process started with pid [235619]
+[INFO] [component_container_mt-26]: process started with pid [235623]
+[INFO] [initial_pose_adaptor-27]: process started with pid [235627]
+[INFO] [routing_adaptor-28]: process started with pid [235629]
+[INFO] [rtc_controller-29]: process started with pid [235631]
+[INFO] [engage-30]: process started with pid [235633]
+[INFO] [tractor_hmi-31]: process started with pid [235637]
+[INFO] [dummy_perception_publisher_node-32]: process started with pid [235659]
+[INFO] [shape_estimation-33]: process started with pid [235663]
+[INFO] [detected_object_feature_remover-34]: process started with pid [235667]
+[INFO] [pose_initializer_node-35]: process started with pid [235669]
+[INFO] [simple_planning_simulator_exe-36]: process started with pid [235671]
+[INFO] [static_transform_publisher-37]: process started with pid [235697]
+[INFO] [multi_object_tracker-38]: process started with pid [235699]
+[INFO] [map_based_prediction-39]: process started with pid [235703]
+[INFO] [component_container-40]: process started with pid [235706]
+[component_container-1] [INFO] [1696612181.872032353] [system.component_state_monitor.container]: Load Library: /home/av_ws/install/component_state_monitor/lib/libcomponent_state_monitor.so
+[robot_state_publisher-16] [INFO] [1696612181.872091600] [robot_state_publisher]: got segment base_link
+[robot_state_publisher-16] [INFO] [1696612181.872171907] [robot_state_publisher]: got segment gps_link
+[robot_state_publisher-16] [INFO] [1696612181.872180425] [robot_state_publisher]: got segment os0_left_inter
+[robot_state_publisher-16] [INFO] [1696612181.872185382] [robot_state_publisher]: got segment os0_left_os_sensor
+[robot_state_publisher-16] [INFO] [1696612181.872190212] [robot_state_publisher]: got segment os0_right_inter
+[robot_state_publisher-16] [INFO] [1696612181.872194700] [robot_state_publisher]: got segment os0_right_os_sensor
+[robot_state_publisher-16] [INFO] [1696612181.872199124] [robot_state_publisher]: got segment os1_center_os_sensor
+[robot_state_publisher-16] [INFO] [1696612181.872204036] [robot_state_publisher]: got segment ouster
+[robot_state_publisher-16] [INFO] [1696612181.872208954] [robot_state_publisher]: got segment sensors
+[static_transform_publisher-37] [INFO] [1696612181.900652835] [static_map_to_odom_tf_publisher]: Spinning until stopped - publishing transform
+[static_transform_publisher-37] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-37] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-37] from 'map' to 'odom'
+[component_container_mt-22] [INFO] [1696612181.915580770] [planning.scenario_planning.lane_driving.behavior_planning.behavior_planning_container]: Load Library: /home/av_ws/install/behavior_path_planner/lib/libbehavior_path_planner_node.so
+[component_container-1] [INFO] [1696612181.918945796] [system.component_state_monitor.container]: Found class: rclcpp_components::NodeFactoryTemplate<component_state_monitor::StateMonitor>
+[component_container-1] [INFO] [1696612181.918986970] [system.component_state_monitor.container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<component_state_monitor::StateMonitor>
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/system/component_state_monitor/component' in container '/system/component_state_monitor/container'
+[component_container-13] [INFO] [1696612182.066857757] [system.mrm_comfortable_stop_operator.mrm_comfortable_stop_operator_container]: Load Library: /home/av_ws/install/mrm_comfortable_stop_operator/lib/libmrm_comfortable_stop_operator_component.so
+[component_container-15] [INFO] [1696612182.084750453] [map.map_container]: Load Library: /home/av_ws/install/map_loader/lib/liblanelet2_map_loader_node.so
+[component_container-14] [INFO] [1696612182.084816169] [system.mrm_emergency_stop_operator.mrm_emergency_stop_operator_container]: Load Library: /home/av_ws/install/mrm_emergency_stop_operator/lib/libmrm_emergency_stop_operator_component.so
+[component_container-13] [INFO] [1696612182.166482662] [system.mrm_comfortable_stop_operator.mrm_comfortable_stop_operator_container]: Found class: rclcpp_components::NodeFactoryTemplate<mrm_comfortable_stop_operator::MrmComfortableStopOperator>
+[component_container-13] [INFO] [1696612182.166531162] [system.mrm_comfortable_stop_operator.mrm_comfortable_stop_operator_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<mrm_comfortable_stop_operator::MrmComfortableStopOperator>
+[component_container-40] [INFO] [1696612182.195903897] [occupancy_grid_map.occupancy_grid_map_container]: Load Library: /home/av_ws/install/pointcloud_to_laserscan/lib/libpointcloud_to_laserscan.so
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/system/mrm_comfortable_stop_operator' in container '/system/mrm_comfortable_stop_operator/mrm_comfortable_stop_operator_container'
+[component_container-25] [INFO] [1696612182.216498627] [control.control_container]: Load Library: /home/av_ws/install/simple_trajectory_follower/lib/libsimple_trajectory_follower.so
+[simple_planning_simulator_exe-36] [INFO] [1696612182.311725980] [simulation.simple_planning_simulator]: vehicle_model_type = DELAY_STEER_ACC_GEARED
+[simple_planning_simulator_exe-36] [INFO] [1696612182.313158508] [simulation.simple_planning_simulator]: initialize_source : INITIAL_POSE_TOPIC
+[component_container-14] [INFO] [1696612182.322421122] [system.mrm_emergency_stop_operator.mrm_emergency_stop_operator_container]: Found class: rclcpp_components::NodeFactoryTemplate<mrm_emergency_stop_operator::MrmEmergencyStopOperator>
+[component_container-14] [INFO] [1696612182.323362909] [system.mrm_emergency_stop_operator.mrm_emergency_stop_operator_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<mrm_emergency_stop_operator::MrmEmergencyStopOperator>
+[simple_planning_simulator_exe-36] [INFO] [1696612182.335536979] [simulation.simple_planning_simulator]: waiting initialization...
+[component_container-40] [INFO] [1696612182.380906396] [occupancy_grid_map.occupancy_grid_map_container]: Found class: rclcpp_components::NodeFactoryTemplate<pointcloud_to_laserscan::LaserScanToPointCloudNode>
+[component_container-40] [INFO] [1696612182.381919955] [occupancy_grid_map.occupancy_grid_map_container]: Found class: rclcpp_components::NodeFactoryTemplate<pointcloud_to_laserscan::PointCloudToLaserScanNode>
+[component_container-40] [INFO] [1696612182.382634687] [occupancy_grid_map.occupancy_grid_map_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<pointcloud_to_laserscan::PointCloudToLaserScanNode>
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/system/mrm_emergency_stop_operator' in container '/system/mrm_emergency_stop_operator/mrm_emergency_stop_operator_container'
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/occupancy_grid_map/pointcloud_to_laserscan_node' in container '/occupancy_grid_map/occupancy_grid_map_container'
+[component_container-40] [INFO] [1696612182.500447751] [occupancy_grid_map.occupancy_grid_map_container]: Load Library: /home/av_ws/install/probabilistic_occupancy_grid_map/lib/liblaserscan_based_occupancy_grid_map.so
+[component_container-15] [INFO] [1696612182.610994155] [map.map_container]: Found class: rclcpp_components::NodeFactoryTemplate<Lanelet2MapLoaderNode>
+[component_container-15] [INFO] [1696612182.611029680] [map.map_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<Lanelet2MapLoaderNode>
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/map/lanelet2_map_loader' in container '/map/map_container'
+[component_container-15] [INFO] [1696612182.662952999] [map.map_container]: Load Library: /home/av_ws/install/map_loader/lib/liblanelet2_map_visualization_node.so
+[component_container-25] [INFO] [1696612182.672671039] [control.control_container]: Found class: rclcpp_components::NodeFactoryTemplate<simple_trajectory_follower::SimpleTrajectoryFollower>
+[component_container-25] [INFO] [1696612182.672718398] [control.control_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<simple_trajectory_follower::SimpleTrajectoryFollower>
+[component_container-25] [INFO] [1696612182.682155448] [control.trajectory_follower.simple_trajectory_follower]: wheel base = 1.490000, max sterring angle = 0.500000
+[component_container-15] [INFO] [1696612182.682224284] [map.map_container]: Found class: rclcpp_components::NodeFactoryTemplate<Lanelet2MapVisualizationNode>
+[component_container-15] [INFO] [1696612182.682260588] [map.map_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<Lanelet2MapVisualizationNode>
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/map/lanelet2_map_visualization' in container '/map/map_container'
+[tractor_hmi-31]  * Serving Flask app 'tractor_hmi.tractor_hmi' (lazy loading)
+[tractor_hmi-31]  * Environment: production
+[tractor_hmi-31]    WARNING: This is a development server. Do not use it in a production deployment.
+[tractor_hmi-31]    Use a production WSGI server instead.
+[tractor_hmi-31]  * Debug mode: off
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/control/trajectory_follower/simple_trajectory_follower' in container '/control/control_container'
+[component_container-25] [INFO] [1696612182.710092695] [control.control_container]: Load Library: /home/av_ws/install/external_cmd_selector/lib/libexternal_cmd_selector_node.so
+[scenario_selector-19] free(): double free detected in tcache 2
+[component_container-25] [INFO] [1696612182.780330892] [control.control_container]: Found class: rclcpp_components::NodeFactoryTemplate<ExternalCmdSelector>
+[component_container-25] [INFO] [1696612182.780383358] [control.control_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<ExternalCmdSelector>
+[shape_estimation-33] [INFO] [1696612182.818128774] [simulation.shape_estimation]: using boost shape estimation : 0
+[component_container-15] [INFO] [1696612182.852463330] [map.lanelet2_map_visualization]: Map is loaded
+[component_container-15] 
+[ERROR] [scenario_selector-19]: process has died [pid 235543, exit code -6, cmd '/home/av_ws/install/scenario_selector/lib/scenario_selector/scenario_selector --ros-args -r __node:=scenario_selector -r __ns:=/planning/scenario_planning -p use_sim_time:=False -p wheel_radius:=0.325 -p wheel_width:=0.17 -p wheel_base:=1.49 -p wheel_tread:=1.18 -p front_overhang:=1.0 -p rear_overhang:=0.66 -p left_overhang:=0.18 -p right_overhang:=0.18 -p vehicle_height:=2.16 -p max_steer_angle:=0.5 --params-file /tmp/launch_params_2l5t3i3w --params-file /tmp/launch_params_5h8tk0px --params-file /tmp/launch_params_rjv0ueam --params-file /tmp/launch_params_3c5p7o29 --params-file /tmp/launch_params_7l1ple94 -r input/lane_driving/trajectory:=/planning/scenario_planning/lane_driving/trajectory -r input/parking/trajectory:=/planning/scenario_planning/parking/trajectory -r input/lanelet_map:=/map/vector_map -r input/route:=/planning/mission_planning/route -r input/odometry:=/localization/kinematic_state -r is_parking_completed:=/planning/scenario_planning/parking/is_completed -r output/scenario:=/planning/scenario_planning/scenario -r output/trajectory:=/planning/scenario_planning/scenario_selector/trajectory'].
+[component_container-23] [INFO] [1696612182.971234382] [planning.scenario_planning.lane_driving.motion_planning.motion_planning_container]: Load Library: /home/av_ws/install/obstacle_avoidance_planner/lib/libobstacle_avoidance_planner.so
+[component_container-40] [INFO] [1696612183.012946910] [occupancy_grid_map.occupancy_grid_map_container]: Found class: rclcpp_components::NodeFactoryTemplate<occupancy_grid_map::LaserscanBasedOccupancyGridMapNode>
+[component_container-40] [INFO] [1696612183.012998366] [occupancy_grid_map.occupancy_grid_map_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<occupancy_grid_map::LaserscanBasedOccupancyGridMapNode>
+[map_based_prediction-39] [INFO] [1696612183.217230546] [perception.object_recognition.prediction.map_based_prediction]: [Map Based Prediction]: Start loading lanelet
+[component_container_mt-22] [INFO] [1696612183.233780971] [planning.scenario_planning.lane_driving.behavior_planning.behavior_planning_container]: Found class: rclcpp_components::NodeFactoryTemplate<behavior_path_planner::BehaviorPathPlannerNode>
+[component_container_mt-22] [INFO] [1696612183.235152988] [planning.scenario_planning.lane_driving.behavior_planning.behavior_planning_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<behavior_path_planner::BehaviorPathPlannerNode>
+[component_container-40] [INFO] [1696612183.270832425] [occupancy_grid_map.pointcloud_to_laserscan_node]: Got a subscriber to laserscan, starting pointcloud subscriber
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/occupancy_grid_map/occupancy_grid_map_node' in container '/occupancy_grid_map/occupancy_grid_map_container'
+[map_based_prediction-39] [INFO] [1696612183.333175194] [perception.object_recognition.prediction.map_based_prediction]: [Map Based Prediction]: Map is loaded
+[component_container-25] [INFO] [1696612183.334437697] [control.trajectory_follower.simple_trajectory_follower]: data not ready
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/control/external_cmd_selector' in container '/control/control_container'
+[component_container-25] [INFO] [1696612183.334839221] [control.control_container]: Load Library: /home/av_ws/install/vehicle_cmd_gate/lib/libvehicle_cmd_gate_node.so
+[component_container-25] [INFO] [1696612183.354323479] [control.control_container]: Found class: rclcpp_components::NodeFactoryTemplate<vehicle_cmd_gate::VehicleCmdGate>
+[component_container-25] [INFO] [1696612183.354364462] [control.control_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<vehicle_cmd_gate::VehicleCmdGate>
+[ERROR] [dummy_perception_publisher_node-32]: process has died [pid 235659, exit code -11, cmd '/home/av_ws/install/dummy_perception_publisher/lib/dummy_perception_publisher/dummy_perception_publisher_node --ros-args -r __node:=dummy_perception_publisher -r __ns:=/simulation -p use_sim_time:=False -p wheel_radius:=0.325 -p wheel_width:=0.17 -p wheel_base:=1.49 -p wheel_tread:=1.18 -p front_overhang:=1.0 -p rear_overhang:=0.66 -p left_overhang:=0.18 -p right_overhang:=0.18 -p vehicle_height:=2.16 -p max_steer_angle:=0.5 --params-file /tmp/launch_params_fbi3pib0 --params-file /tmp/launch_params_z67ob5h0 --params-file /tmp/launch_params_3gambh1e --params-file /tmp/launch_params_p7iw6bpg --params-file /tmp/launch_params_6_k56s7b --params-file /tmp/launch_params_s5iqxyqo --params-file /tmp/launch_params_7k7yrmwr --params-file /tmp/launch_params_l83abmqt -r output/dynamic_object:=/perception/object_recognition/detection/labeled_clusters -r output/objects_pose:=debug/object_pose -r output/points_raw:=/perception/obstacle_segmentation/pointcloud -r input/object:=dummy_perception_publisher/object_info -r input/reset:=input/reset -r input/lanelet_map_bin:=/map/vector_map -r output/debug/ground_truth_objects:=debug/ground_truth_objects'].
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/control/vehicle_cmd_gate' in container '/control/control_container'
+[component_container-25] [INFO] [1696612183.412684407] [control.control_container]: Load Library: /home/av_ws/install/operation_mode_transition_manager/lib/liboperation_mode_transition_manager_node.so
+[ERROR] [component_container_mt-22]: process has died [pid 235568, exit code -11, cmd '/opt/ros/humble/lib/rclcpp_components/component_container_mt --ros-args -r __node:=behavior_planning_container -r __ns:=/planning/scenario_planning/lane_driving/behavior_planning -p use_sim_time:=False -p wheel_radius:=0.325 -p wheel_width:=0.17 -p wheel_base:=1.49 -p wheel_tread:=1.18 -p front_overhang:=1.0 -p rear_overhang:=0.66 -p left_overhang:=0.18 -p right_overhang:=0.18 -p vehicle_height:=2.16 -p max_steer_angle:=0.5'].
+[component_container-25] [INFO] [1696612183.429523368] [control.control_container]: Found class: rclcpp_components::NodeFactoryTemplate<operation_mode_transition_manager::OperationModeTransitionManager>
+[component_container-25] [INFO] [1696612183.429572485] [control.control_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<operation_mode_transition_manager::OperationModeTransitionManager>
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/control/operation_mode_transition_manager' in container '/control/control_container'
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/default_ad_api/node/autoware_state' in container '/default_ad_api/container'
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/default_ad_api/node/fail_safe' in container '/default_ad_api/container'
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/default_ad_api/node/localization' in container '/default_ad_api/container'
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/default_ad_api/node/motion' in container '/default_ad_api/container'
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/default_ad_api/node/operation_mode' in container '/default_ad_api/container'
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/default_ad_api/node/planning' in container '/default_ad_api/container'
+[component_container-23] [INFO] [1696612183.711214969] [planning.scenario_planning.lane_driving.motion_planning.motion_planning_container]: Found class: rclcpp_components::NodeFactoryTemplate<ObstacleAvoidancePlanner>
+[component_container-23] [INFO] [1696612183.711260192] [planning.scenario_planning.lane_driving.motion_planning.motion_planning_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<ObstacleAvoidancePlanner>
+[component_container-23] [WARN] [1696612183.758353598] [planning.scenario_planning.lane_driving.motion_planning.obstacle_avoidance_planner]: [ObstacleAvoidancePlanner] Reset planning
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/planning/scenario_planning/lane_driving/motion_planning/obstacle_avoidance_planner' in container '/planning/scenario_planning/lane_driving/motion_planning/motion_planning_container'
+[component_container-23] [INFO] [1696612183.762048960] [planning.scenario_planning.lane_driving.motion_planning.motion_planning_container]: Load Library: /home/av_ws/install/obstacle_velocity_limiter/lib/libobstacle_velocity_limiter_node.so
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/default_ad_api/node/routing' in container '/default_ad_api/container'
+[component_container-23] [INFO] [1696612183.811659632] [planning.scenario_planning.lane_driving.motion_planning.motion_planning_container]: Found class: rclcpp_components::NodeFactoryTemplate<obstacle_velocity_limiter::ObstacleVelocityLimiterNode>
+[component_container-23] [INFO] [1696612183.811716622] [planning.scenario_planning.lane_driving.motion_planning.motion_planning_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<obstacle_velocity_limiter::ObstacleVelocityLimiterNode>
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/planning/scenario_planning/lane_driving/motion_planning/obstacle_velocity_limiter' in container '/planning/scenario_planning/lane_driving/motion_planning/motion_planning_container'
+[component_container-23] [INFO] [1696612183.841016492] [planning.scenario_planning.lane_driving.motion_planning.motion_planning_container]: Load Library: /home/av_ws/install/obstacle_stop_planner/lib/libobstacle_stop_planner.so
+[component_container-23] [INFO] [1696612183.874983007] [planning.scenario_planning.lane_driving.motion_planning.motion_planning_container]: Found class: rclcpp_components::NodeFactoryTemplate<motion_planning::ObstacleStopPlannerNode>
+[component_container-23] [INFO] [1696612183.875022428] [planning.scenario_planning.lane_driving.motion_planning.motion_planning_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<motion_planning::ObstacleStopPlannerNode>
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/planning/scenario_planning/lane_driving/motion_planning/obstacle_stop_planner' in container '/planning/scenario_planning/lane_driving/motion_planning/motion_planning_container'
+[simple_planning_simulator_exe-36] [INFO] [1696612187.335804331] [simulation.simple_planning_simulator]: waiting initialization...
+[simple_planning_simulator_exe-36] [INFO] [1696612192.360634397] [simulation.simple_planning_simulator]: waiting initialization...
+[component_container-25] [INFO] [1696612193.359511425] [control.trajectory_follower.simple_trajectory_follower]: data not ready
+[simple_planning_simulator_exe-36] [INFO] [1696612197.385681971] [simulation.simple_planning_simulator]: waiting initialization...
+[simple_planning_simulator_exe-36] [INFO] [1696612202.385800491] [simulation.simple_planning_simulator]: waiting initialization...
+[component_container-25] [INFO] [1696612203.379441804] [control.trajectory_follower.simple_trajectory_follower]: data not ready
+[simple_planning_simulator_exe-36] [INFO] [1696612207.410644429] [simulation.simple_planning_simulator]: waiting initialization...
+[simple_planning_simulator_exe-36] [INFO] [1696612212.435731247] [simulation.simple_planning_simulator]: waiting initialization...
+[component_container-25] [INFO] [1696612213.399523611] [control.trajectory_follower.simple_trajectory_follower]: data not ready
+[simple_planning_simulator_exe-36] [INFO] [1696612217.460625345] [simulation.simple_planning_simulator]: waiting initialization...
+[simple_planning_simulator_exe-36] [INFO] [1696612222.460678440] [simulation.simple_planning_simulator]: waiting initialization...
+[component_container-25] [INFO] [1696612223.419503705] [control.trajectory_follower.simple_trajectory_follower]: data not ready
+[simple_planning_simulator_exe-36] [INFO] [1696612227.485632862] [simulation.simple_planning_simulator]: waiting initialization...
+[simple_planning_simulator_exe-36] [INFO] [1696612232.485699315] [simulation.simple_planning_simulator]: waiting initialization...
+[component_container-25] [INFO] [1696612233.439527239] [control.trajectory_follower.simple_trajectory_follower]: data not ready
+[simple_planning_simulator_exe-36] [INFO] [1696612237.510512713] [simulation.simple_planning_simulator]: waiting initialization...
+[simple_planning_simulator_exe-36] [INFO] [1696612242.510614681] [simulation.simple_planning_simulator]: waiting initialization...
+[component_container-25] [INFO] [1696612243.459432388] [control.trajectory_follower.simple_trajectory_follower]: data not ready
+[INFO] [topic_state_monitor_node-2]: process has finished cleanly [pid 235500]
+[INFO] [topic_state_monitor_node-5]: process has finished cleanly [pid 235506]
+[INFO] [static_transform_publisher-37]: process has finished cleanly [pid 235697]
+[INFO] [shape_estimation-33]: process has finished cleanly [pid 235663]
+[INFO] [topic_state_monitor_node-12]: process has finished cleanly [pid 235520]
+[INFO] [detected_object_feature_remover-34]: process has finished cleanly [pid 235667]
+[INFO] [topic_state_monitor_node-8]: process has finished cleanly [pid 235512]
+[INFO] [external_velocity_limit_selector-20]: process has finished cleanly [pid 235560]
+[INFO] [component_container-13]: process has finished cleanly [pid 235522]
+[INFO] [topic_state_monitor_node-10]: process has finished cleanly [pid 235516]
+[INFO] [topic_state_monitor_node-9]: process has finished cleanly [pid 235514]
+[INFO] [topic_state_monitor_node-7]: process has finished cleanly [pid 235510]
+[ERROR] [mission_planner-17]: process has died [pid 235530, exit code -11, cmd '/home/av_ws/install/mission_planner/lib/mission_planner/mission_planner --ros-args -r __node:=mission_planner -r __ns:=/planning/mission_planning -p use_sim_time:=False -p wheel_radius:=0.325 -p wheel_width:=0.17 -p wheel_base:=1.49 -p wheel_tread:=1.18 -p front_overhang:=1.0 -p rear_overhang:=0.66 -p left_overhang:=0.18 -p right_overhang:=0.18 -p vehicle_height:=2.16 -p max_steer_angle:=0.5 --params-file /home/av_ws/install/mission_planner/share/mission_planner/config/mission_planner.param.yaml -r input/modified_goal:=/planning/scenario_planning/modified_goal -r input/vector_map:=/map/vector_map -r debug/route_marker:=/planning/mission_planning/route_marker'].
+[INFO] [planning_validator_node-24]: process has finished cleanly [pid 235614]
+[INFO] [engage-30]: process has finished cleanly [pid 235633]
+[INFO] [multi_object_tracker-38]: process has finished cleanly [pid 235699]
+[INFO] [map_based_prediction-39]: process has finished cleanly [pid 235703]
+[ERROR] [component_container-15]: process has died [pid 235526, exit code -11, cmd '/opt/ros/humble/lib/rclcpp_components/component_container --ros-args -r __node:=map_container -r __ns:=/map -p use_sim_time:=False -p wheel_radius:=0.325 -p wheel_width:=0.17 -p wheel_base:=1.49 -p wheel_tread:=1.18 -p front_overhang:=1.0 -p rear_overhang:=0.66 -p left_overhang:=0.18 -p right_overhang:=0.18 -p vehicle_height:=2.16 -p max_steer_angle:=0.5'].
+[INFO] [topic_state_monitor_node-6]: process has finished cleanly [pid 235508]
+[INFO] [topic_state_monitor_node-4]: process has finished cleanly [pid 235504]
+[INFO] [component_container-1]: process has finished cleanly [pid 235498]
+[INFO] [pose_initializer_node-35]: process has finished cleanly [pid 235669]
+[INFO] [topic_state_monitor_node-11]: process has finished cleanly [pid 235518]
+[INFO] [topic_state_monitor_node-3]: process has finished cleanly [pid 235502]
+[INFO] [initial_pose_adaptor-27]: process has finished cleanly [pid 235627]
+[INFO] [component_container-14]: process has finished cleanly [pid 235524]
+[INFO] [robot_state_publisher-16]: process has finished cleanly [pid 235528]
+[INFO] [routing_adaptor-28]: process has finished cleanly [pid 235629]
+[INFO] [goal_pose_visualizer-18]: process has finished cleanly [pid 235532]
+[component_container-40] [INFO] [1696612246.766564924] [rclcpp]: signal_handler(signum=2)
+[map_based_prediction-39] [INFO] [1696612246.766567003] [rclcpp]: signal_handler(signum=2)
+[INFO] [rtc_controller-29]: process has finished cleanly [pid 235631]
+[INFO] [motion_velocity_smoother-21]: process has finished cleanly [pid 235563]
+[planning_validator_node-24] [INFO] [1696612246.766569820] [rclcpp]: signal_handler(signum=2)
+[simple_planning_simulator_exe-36] [INFO] [1696612246.766624848] [rclcpp]: signal_handler(signum=2)
+[component_container_mt-26] [INFO] [1696612246.766622711] [rclcpp]: signal_handler(signum=2)
+[motion_velocity_smoother-21] [INFO] [1696612246.766627440] [rclcpp]: signal_handler(signum=2)
+[engage-30] [INFO] [1696612246.766624814] [rclcpp]: signal_handler(signum=2)
+[external_velocity_limit_selector-20] [INFO] [1696612246.766625238] [rclcpp]: signal_handler(signum=2)
+[shape_estimation-33] [INFO] [1696612246.766656616] [rclcpp]: signal_handler(signum=2)
+[detected_object_feature_remover-34] [INFO] [1696612246.766630901] [rclcpp]: signal_handler(signum=2)
+[static_transform_publisher-37] [INFO] [1696612246.766680683] [rclcpp]: signal_handler(signum=2)
+[component_container-23] [INFO] [1696612246.766678148] [rclcpp]: signal_handler(signum=2)
+[goal_pose_visualizer-18] [INFO] [1696612246.766664102] [rclcpp]: signal_handler(signum=2)
+[multi_object_tracker-38] [INFO] [1696612246.766685049] [rclcpp]: signal_handler(signum=2)
+[rtc_controller-29] [INFO] [1696612246.766659827] [rclcpp]: signal_handler(signum=2)
+[component_container-14] [INFO] [1696612246.766742990] [rclcpp]: signal_handler(signum=2)
+[component_container-13] [INFO] [1696612246.766791000] [rclcpp]: signal_handler(signum=2)
+[topic_state_monitor_node-7] [INFO] [1696612246.766776783] [rclcpp]: signal_handler(signum=2)
+[mission_planner-17] [INFO] [1696612246.766785527] [rclcpp]: signal_handler(signum=2)
+[topic_state_monitor_node-11] [INFO] [1696612246.766808836] [rclcpp]: signal_handler(signum=2)
+[topic_state_monitor_node-5] [INFO] [1696612246.766812130] [rclcpp]: signal_handler(signum=2)
+[topic_state_monitor_node-12] [INFO] [1696612246.766806850] [rclcpp]: signal_handler(signum=2)
+[topic_state_monitor_node-10] [INFO] [1696612246.766819784] [rclcpp]: signal_handler(signum=2)
+[routing_adaptor-28] [INFO] [1696612246.766711143] [rclcpp]: signal_handler(signum=2)
+[initial_pose_adaptor-27] [INFO] [1696612246.766692725] [rclcpp]: signal_handler(signum=2)
+[topic_state_monitor_node-6] [INFO] [1696612246.766920181] [rclcpp]: signal_handler(signum=2)
+[topic_state_monitor_node-3] [INFO] [1696612246.766933231] [rclcpp]: signal_handler(signum=2)
+[topic_state_monitor_node-8] [INFO] [1696612246.767102623] [rclcpp]: signal_handler(signum=2)
+[component_container-15] [INFO] [1696612246.767266927] [rclcpp]: signal_handler(signum=2)
+[topic_state_monitor_node-2] [INFO] [1696612246.767586454] [rclcpp]: signal_handler(signum=2)
+[robot_state_publisher-16] [INFO] [1696612246.767110465] [rclcpp]: signal_handler(signum=2)
+[pose_initializer_node-35] [INFO] [1696612246.766553288] [rclcpp]: signal_handler(signum=2)
+[topic_state_monitor_node-4] [INFO] [1696612246.773429695] [rclcpp]: signal_handler(signum=2)
+[component_container-1] [INFO] [1696612246.773337422] [rclcpp]: signal_handler(signum=2)
+[topic_state_monitor_node-9] [INFO] [1696612246.775612215] [rclcpp]: signal_handler(signum=2)
+[INFO] [component_container-40]: process has finished cleanly [pid 235706]
+[INFO] [simple_planning_simulator_exe-36]: process has finished cleanly [pid 235671]
+[WARNING] [launch_ros.actions.load_composable_nodes]: Abandoning wait for the '/planning/scenario_planning/lane_driving/behavior_planning/behavior_planning_container/_container/load_node' service response, due to shutdown.
+Future exception was never retrieved
+future: <Future finished exception=InvalidHandle('cannot use Destroyable because destruction was requested')>
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/opt/ros/humble/lib/python3.10/site-packages/launch_ros/actions/load_composable_nodes.py", line 197, in _load_in_sequence
+    self._load_node(next_load_node_request, context)
+  File "/opt/ros/humble/lib/python3.10/site-packages/launch_ros/actions/load_composable_nodes.py", line 119, in _load_node
+    while not self.__rclpy_load_node_client.wait_for_service(timeout_sec=1.0):
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/client.py", line 180, in wait_for_service
+    return self.service_is_ready()
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/client.py", line 159, in service_is_ready
+    with self.handle:
+rclpy._rclpy_pybind11.InvalidHandle: cannot use Destroyable because destruction was requested
+[INFO] [tractor_hmi-31]: process has finished cleanly [pid 235637]
+[INFO] [component_container-25]: process has finished cleanly [pid 235619]
+[INFO] [component_container-23]: process has finished cleanly [pid 235609]
+[INFO] [component_container_mt-26]: process has finished cleanly [pid 235623]
